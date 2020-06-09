@@ -1,0 +1,6 @@
+2020-06-09 16:10:43.330 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-09 16:10:43.481 +08:00 [INF] Creating key "dd3e4fff-7edb-4d0d-9eb1-f4028f4d393b" with creation date "2020-06-09T08:10:43.4791601+00:00", activation date "2020-06-09T08:10:43.3894780+00:00", and expiration date "2020-09-07T08:10:43.3894780+00:00".
+2020-06-09 16:10:43.516 +08:00 [INF] Writing data to file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-dd3e4fff-7edb-4d0d-9eb1-f4028f4d393b.xml'.
+2020-06-09 16:13:04.776 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:6001/Get?id=1  
+2020-06-09 16:13:04.888 +08:00 [INF] Request finished in 111.9718ms 404 
+2020-06-09 16:19:22.063 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.

@@ -1,0 +1,11 @@
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Repository.deps.json
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Repository.dll
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Repository.pdb
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Core.dll
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Core.pdb
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.csprojAssemblyReference.cache
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.AssemblyInfoInputs.cache
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.AssemblyInfo.cs
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.csproj.CopyComplete
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.dll
+F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.pdb
