@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj": {}
+    "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj": {}
   },
   "projects": {
-    "d:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
+    "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj",
+        "projectUniqueName": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj",
         "projectName": "API.Core",
-        "projectPath": "d:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj",
+        "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "d:\\mywork\\github\\RestfulAPI\\API.Core\\obj\\",
+        "outputPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,8 +42,10 @@
         "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[2.1.3, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -78,14 +80,14 @@
         }
       }
     },
-    "d:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj": {
+    "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj",
+        "projectUniqueName": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj",
         "projectName": "API.Repository",
-        "projectPath": "d:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj",
+        "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "d:\\mywork\\github\\RestfulAPI\\API.Repository\\obj\\",
+        "outputPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -104,8 +106,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "d:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
-                "projectPath": "d:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj"
+              "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj": {
+                "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj"
               }
             }
           }

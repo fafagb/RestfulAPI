@@ -5,7 +5,7 @@ using System.Text;
 
 namespace API.Core.Entities
 {
-   public  class ClueParameters: QueryParameters
+   public  class PersonParameters: QueryParameters
     {
 
         public string Mobile { get; set; }

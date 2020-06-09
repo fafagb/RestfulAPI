@@ -9,8 +9,8 @@ namespace API.Repository.Database
 {
     public class UnitOfWork : IUnitOfWork
     {
-       private readonly MANBU_qaContext _qaContext;
-        public UnitOfWork(MANBU_qaContext qaContext)
+       private readonly mydbContext _qaContext;
+        public UnitOfWork(mydbContext qaContext)
         {
             _qaContext = qaContext;
         }

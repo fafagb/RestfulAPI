@@ -15,13 +15,13 @@ namespace API.Extensions
     {
         public MappingProfile()
         {
-            CreateMap<TxClues, ClueResource>().ForMember(dest=> dest.UpdateTime,opt=>opt.MapFrom(src=>src.UpdateTime));
-            CreateMap<ClueResource, TxClues>();
+            CreateMap<Person, PersonResource>().ForMember(dest=> dest.UpdateTime,opt=>opt.MapFrom(src=>src.UpdateTime));
+            CreateMap<PersonResource, Person>();
 
 
-            CreateMap<ClueAddResource, TxClues>();
-            CreateMap<TxClues, ClueAddResource>();
-            CreateMap<ClueUpdateResource, TxClues>();
+            CreateMap<PersonAddResource, Person>();
+            CreateMap<Person, PersonAddResource>();
+            CreateMap<PersonUpdateResource, Person>();
 
         }
 

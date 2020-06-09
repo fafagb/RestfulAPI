@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace API.Repository.EntityConfiguration
 {
-    public class ClueConfiguration : IEntityTypeConfiguration<TxClues>
+    public class PersonConfiguration : IEntityTypeConfiguration<Person>
     {
-        public void Configure(EntityTypeBuilder<TxClues> builder)
+        public void Configure(EntityTypeBuilder<Person> builder)
         {
-            builder.Property(x => x.ReportCasePeople).HasMaxLength(30);
+            builder.Property(x => x.Name).HasMaxLength(50);
             
         }
     }

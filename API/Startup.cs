@@ -75,7 +75,7 @@ namespace API
             {
                 options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
             }).AddFluentValidation();
-            services.AddDbContext<MANBU_qaContext>(options =>
+            services.AddDbContext<mydbContext>(options =>
             {
                 //var connectionString = Configuration["ConnectionStrings:DefaultConnection"];
                 var connectionString = Configuration.GetConnectionString("DefaultConnection");
@@ -109,12 +109,12 @@ namespace API
 
 
 
-            services.AddScoped<IClueRepository, ClueRepository>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             //services.AddHsts();生产建议启用Hsts
             services.AddAutoMapper();
-            services.AddTransient<IValidator<ClueAddResource>, ClueAddOrUpdateResourceValidator<ClueAddResource>>();
-            services.AddTransient<IValidator<ClueUpdateResource>, ClueAddOrUpdateResourceValidator<ClueUpdateResource>>();
+            services.AddTransient<IValidator<PersonAddResource>, PersonAddOrUpdateResourceValidator<PersonAddResource>>();
+            services.AddTransient<IValidator<PersonUpdateResource>, PersonAddOrUpdateResourceValidator<PersonUpdateResource>>();
 
             services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
             services.AddScoped<IUrlHelper>(factory =>
@@ -124,7 +124,7 @@ namespace API
             });
 
             var propertyMappingContainer = new PropertyMappingContainer();
-            propertyMappingContainer.Register<CluePropertyMapping>();
+            propertyMappingContainer.Register<PersonPropertyMapping>();
             services.AddSingleton<IPropertyMappingContainer>(propertyMappingContainer);
 
             services.AddTransient<ITypeHelperService, TypeHelperService>();

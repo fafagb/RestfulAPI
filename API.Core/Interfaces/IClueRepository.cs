@@ -6,19 +6,19 @@ using API.Core.Entities;
 
 namespace API.Core.Interfaces
 {
-    public interface IClueRepository
+    public interface IPersonRepository
     {
-         Task<PaginatedList<TxClues>> GetAllCluesAsync(ClueParameters clueParameters);
+         Task<PaginatedList<Person>> GetAllPersonAsync(PersonParameters personParameters);
 
-        void AddClue(TxClues clue);
-
-
-        Task<TxClues> GetClueByIdAsync(int id);
-
-        void Delete(TxClues clue);
+        void AddPerson(Person person);
 
 
-        void Update(TxClues clue);
+        Task<Person> GetPersonByIdAsync(int id);
+
+        void Delete(Person person);
+
+
+        void Update(Person person);
 
 
 

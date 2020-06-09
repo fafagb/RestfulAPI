@@ -4,9 +4,9 @@ using System.Text;
 
 namespace API.Repository.Resources
 {
-    public class ClueUpdateResource:ClueAddOrUpdateResource
+    public class PersonAddResource:PersonAddOrUpdateResource
     {
-        
+
       
     }
 }

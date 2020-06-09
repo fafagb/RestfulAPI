@@ -1,6 +1,0 @@
-2019-01-25 19:58:18.957 +08:00 [ERR] Error occured seeding the  Database
-System.FormatException: Input string was not in a correct format.
-   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
-   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
-   at System.Convert.ToInt32(String value)
-   at API.Program.Main(String[] args) in D:\mywork\netcore\ProjectIntegration\API\Program.cs:line 43
