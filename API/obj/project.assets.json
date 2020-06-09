@@ -1934,10 +1934,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Tools/3.1.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.2.0"
+          "Microsoft.EntityFrameworkCore.Design": "3.1.4"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -5236,6 +5236,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Tools": "3.1.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.1",
           "MySql.Data.EntityFrameworkCore": "8.0.14",
           "Pomelo.EntityFrameworkCore.MySql": "2.1.4"
@@ -7002,24 +7003,24 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/2.2.0": {
-      "sha512": "wn1ULjQbFadRosiNJE4B65iR5eYL3FkMezH4Tyv8EmdmN5XfCTzIgkk1mQJ1Zcb61Kb3qyZMeGidanwR7h/gug==",
+    "Microsoft.EntityFrameworkCore.Tools/3.1.4": {
+      "sha512": "aJ1TGflH7aFOh+oPppIzx7NoC8QXw6lY4YH8PAa67tTlh40GJvWbhkNVqDCyuzrvUl9U1I3i4so/N6TtCK11uw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/2.2.0",
+      "path": "microsoft.entityframeworkcore.tools/3.1.4",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.tools.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.3.1.4.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
-        "tools/EntityFrameworkCore.PowerShell2.psd1",
-        "tools/EntityFrameworkCore.PowerShell2.psm1",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
         "tools/EntityFrameworkCore.psd1",
         "tools/EntityFrameworkCore.psm1",
         "tools/about_EntityFrameworkCore.help.txt",
         "tools/init.ps1",
-        "tools/install.ps1",
         "tools/net461/any/ef.exe",
         "tools/net461/win-x86/ef.exe",
         "tools/netcoreapp2.0/any/ef.dll",
@@ -14198,11 +14199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mywork\\github\\RestfulAPI\\API\\API.csproj",
+      "projectUniqueName": "d:\\mywork\\github\\RestfulAPI\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\mywork\\github\\RestfulAPI\\API\\API.csproj",
+      "projectPath": "d:\\mywork\\github\\RestfulAPI\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\mywork\\github\\RestfulAPI\\API\\obj\\",
+      "outputPath": "d:\\mywork\\github\\RestfulAPI\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14221,11 +14222,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
-              "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj"
+            "d:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
+              "projectPath": "d:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj"
             },
-            "D:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj": {
-              "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj"
+            "d:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj": {
+              "projectPath": "d:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj"
             }
           }
         }
@@ -14326,5 +14327,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1107",
+      "level": "Error",
+      "message": "Microsoft.EntityFrameworkCore.Tools 中检测到版本冲突。直接安装/引用 Microsoft.EntityFrameworkCore.Tools 3.1.4 到项目 API 可解决此问题。 \r\n API -> API.Core -> Microsoft.EntityFrameworkCore.Tools (>= 3.1.4) \r\n API -> Microsoft.AspNetCore.App 2.2.0 -> Microsoft.EntityFrameworkCore.Tools (>= 2.2.0 && < 2.3.0).",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }
