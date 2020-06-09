@@ -9,3 +9,14 @@ F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.R
 F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.csproj.CopyComplete
 F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.dll
 F:\mywork\mywork\netcore\NetCoreAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.pdb
+D:\mywork\github\RestfulAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Repository.deps.json
+D:\mywork\github\RestfulAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Repository.dll
+D:\mywork\github\RestfulAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Repository.pdb
+D:\mywork\github\RestfulAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Core.dll
+D:\mywork\github\RestfulAPI\API.Repository\bin\Debug\netcoreapp2.2\API.Core.pdb
+D:\mywork\github\RestfulAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.csprojAssemblyReference.cache
+D:\mywork\github\RestfulAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.AssemblyInfoInputs.cache
+D:\mywork\github\RestfulAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.AssemblyInfo.cs
+D:\mywork\github\RestfulAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.csproj.CopyComplete
+D:\mywork\github\RestfulAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.dll
+D:\mywork\github\RestfulAPI\API.Repository\obj\Debug\netcoreapp2.2\API.Repository.pdb

@@ -8,3 +8,13 @@ F:\mywork\mywork\netcore\NetCoreAPI\API.Core\obj\Debug\netcoreapp2.2\API.Core.As
 F:\mywork\mywork\netcore\NetCoreAPI\API.Core\obj\Debug\netcoreapp2.2\API.Core.dll
 F:\mywork\mywork\netcore\NetCoreAPI\API.Core\obj\Debug\netcoreapp2.2\API.Core.pdb
 F:\mywork\mywork\netcore\NetCoreAPI\API.Core\obj\Debug\netcoreapp2.2\API.Core.csprojAssemblyReference.cache
+D:\mywork\github\RestfulAPI\API.Core\bin\Debug\netcoreapp2.2\API.Core.deps.json
+D:\mywork\github\RestfulAPI\API.Core\bin\Debug\netcoreapp2.2\API.Core.runtimeconfig.json
+D:\mywork\github\RestfulAPI\API.Core\bin\Debug\netcoreapp2.2\API.Core.runtimeconfig.dev.json
+D:\mywork\github\RestfulAPI\API.Core\bin\Debug\netcoreapp2.2\API.Core.dll
+D:\mywork\github\RestfulAPI\API.Core\bin\Debug\netcoreapp2.2\API.Core.pdb
+D:\mywork\github\RestfulAPI\API.Core\obj\Debug\netcoreapp2.2\API.Core.csprojAssemblyReference.cache
+D:\mywork\github\RestfulAPI\API.Core\obj\Debug\netcoreapp2.2\API.Core.AssemblyInfoInputs.cache
+D:\mywork\github\RestfulAPI\API.Core\obj\Debug\netcoreapp2.2\API.Core.AssemblyInfo.cs
+D:\mywork\github\RestfulAPI\API.Core\obj\Debug\netcoreapp2.2\API.Core.dll
+D:\mywork\github\RestfulAPI\API.Core\obj\Debug\netcoreapp2.2\API.Core.pdb

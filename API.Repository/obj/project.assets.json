@@ -7491,11 +7491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj",
+      "projectUniqueName": "D:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj",
       "projectName": "API.Repository",
-      "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj",
+      "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\obj\\",
+      "outputPath": "D:\\mywork\\github\\RestfulAPI\\API.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7514,8 +7514,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj": {
-              "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj"
+            "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
+              "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj"
             }
           }
         }
