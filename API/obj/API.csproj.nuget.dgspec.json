@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API\\API.csproj": {}
+    "D:\\mywork\\github\\RestfulAPI\\API\\API.csproj": {}
   },
   "projects": {
-    "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj": {
+    "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj",
+        "projectUniqueName": "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj",
         "projectName": "API.Core",
-        "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj",
+        "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\obj\\",
+        "outputPath": "D:\\mywork\\github\\RestfulAPI\\API.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -80,14 +80,14 @@
         }
       }
     },
-    "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj": {
+    "D:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj",
+        "projectUniqueName": "D:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj",
         "projectName": "API.Repository",
-        "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj",
+        "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\obj\\",
+        "outputPath": "D:\\mywork\\github\\RestfulAPI\\API.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -106,8 +106,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj": {
-                "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj"
+              "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
+                "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API\\API.csproj": {
+    "D:\\mywork\\github\\RestfulAPI\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API\\API.csproj",
+        "projectUniqueName": "D:\\mywork\\github\\RestfulAPI\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API\\API.csproj",
+        "projectPath": "D:\\mywork\\github\\RestfulAPI\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API\\obj\\",
+        "outputPath": "D:\\mywork\\github\\RestfulAPI\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -176,11 +176,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj": {
-                "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Core\\API.Core.csproj"
+              "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
+                "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj"
               },
-              "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj": {
-                "projectPath": "F:\\mywork\\mywork\\netcore\\NetCoreAPI\\API.Repository\\API.Repository.csproj"
+              "D:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj": {
+                "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Repository\\API.Repository.csproj"
               }
             }
           }
