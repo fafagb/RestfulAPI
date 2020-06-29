@@ -13,12 +13,22 @@
 # dotnet run  在项目文件所在目录执行源代码
 # dotnet app.dll   执行main函数所在dll
 #  dotnet publish  -c  release
-
 # dotnet publish [项目路径(在当前项目路径下不需要指定)] -o [发布后的文件存放路径]
-
+#  dotnet test.dll & 后台运行 ssh终端关闭test进程也会关闭
 
 # 这个launchSettings.json 的配置   Now listening on: https://localhost:6001  Now listening on: http://localhost:6000   但是http://localhost:6000不能访问 只能访问https://localhost:6001
  #  "launchUrl": "http://localhost:6000/api/persons",
  #  "applicationUrl": "https://localhost:6001;http://localhost:6000", 
 
 # Scaffold-DbContext "Server=127.0.0.1;Port=3306;Database=mydb; User=root;Password=root;Pooling=true; Max Pool Size=100;" Pomelo.EntityFrameworkCore.MySql -OutputDir Entities   -Force
+
+
+
+
+#     div>ul>li*3>a
+
+
+# ctrl+shift+\  匹配大括号
+
+
+#  vs   CTRL + SHIFT + F9 取消所有断点  注意不是vscode的快捷键
