@@ -83,12 +83,12 @@ namespace API
             });
 
 
-            services.AddHttpsRedirection(options =>
-            {
-                options.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
-                options.HttpsPort = 6001;
+            // services.AddHttpsRedirection(options =>
+            // {
+            //     options.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
+            //   //  options.HttpsPort = 6001;
 
-            });
+            // });
 
   
 
