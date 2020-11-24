@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {}
+    "D:\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {}
   },
   "projects": {
-    "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
+    "D:\\github\\RestfulAPI\\API.Core\\API.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj",
+        "projectUniqueName": "D:\\github\\RestfulAPI\\API.Core\\API.Core.csproj",
         "projectName": "API.Core",
-        "projectPath": "D:\\mywork\\github\\RestfulAPI\\API.Core\\API.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\mywork\\github\\RestfulAPI\\API.Core\\obj\\",
+        "projectPath": "D:\\github\\RestfulAPI\\API.Core\\API.Core.csproj",
+        "packagesPath": "C:\\Users\\ruiyi\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\RestfulAPI\\API.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ruiyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -39,19 +36,13 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.3, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -76,7 +67,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

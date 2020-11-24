@@ -1,0 +1,11 @@
+D:\github\RestfulAPI\API.Core\bin\Debug\netcoreapp3.1\API.Core.deps.json
+D:\github\RestfulAPI\API.Core\bin\Debug\netcoreapp3.1\API.Core.runtimeconfig.json
+D:\github\RestfulAPI\API.Core\bin\Debug\netcoreapp3.1\API.Core.runtimeconfig.dev.json
+D:\github\RestfulAPI\API.Core\bin\Debug\netcoreapp3.1\API.Core.dll
+D:\github\RestfulAPI\API.Core\bin\Debug\netcoreapp3.1\API.Core.pdb
+D:\github\RestfulAPI\API.Core\obj\Debug\netcoreapp3.1\API.Core.AssemblyInfoInputs.cache
+D:\github\RestfulAPI\API.Core\obj\Debug\netcoreapp3.1\API.Core.AssemblyInfo.cs
+D:\github\RestfulAPI\API.Core\obj\Debug\netcoreapp3.1\API.Core.csproj.CoreCompileInputs.cache
+D:\github\RestfulAPI\API.Core\obj\Debug\netcoreapp3.1\API.Core.dll
+D:\github\RestfulAPI\API.Core\obj\Debug\netcoreapp3.1\API.Core.pdb
+D:\github\RestfulAPI\API.Core\obj\Debug\netcoreapp3.1\API.Core.genruntimeconfig.cache
