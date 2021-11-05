@@ -27,6 +27,7 @@ namespace API.Repository.Repositories
 
         public void AddPerson(Person person)
         {
+            
             _mydbContext.Add(person);
         }
 

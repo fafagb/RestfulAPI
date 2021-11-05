@@ -59,21 +59,21 @@ namespace API
                 options.ReturnHttpNotAcceptable = true;//内容协商
                 //options.OutputFormatters.Add(new XmlDataContractSerializerOutputFormatter());
 
-                var inputFormatter = options.InputFormatters.OfType<JsonInputFormatter>().FirstOrDefault();
+                var inputFormatter = options.InputFormatters.OfType<SystemTextJsonInputFormatter>().FirstOrDefault();
                 if (inputFormatter != null)
                 {
                     //供应商mediatype
                     inputFormatter.SupportedMediaTypes.Add("application/vnd..post.create+json");
                     inputFormatter.SupportedMediaTypes.Add("application/vnd..put.update+json");
                 }
-                var outputFormatter = options.OutputFormatters.OfType<JsonOutputFormatter>().FirstOrDefault();
+                var outputFormatter = options.OutputFormatters.OfType<SystemTextJsonInputFormatter>().FirstOrDefault();
                 if (outputFormatter != null)
                 {
                     outputFormatter.SupportedMediaTypes.Add("application/vnd..hateoas+json");
                 }
             }).AddJsonOptions(options =>
             {
-                options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+              //  options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
             }).AddFluentValidation();
             services.AddDbContext<mydbContext>(options =>
             {

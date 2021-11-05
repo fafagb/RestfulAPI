@@ -368,7 +368,7 @@ namespace API.Controllers
                 return NotFound();
             }
             var personToPatch = _mapper.Map<PersonUpdateResource>(person);
-            patchDoc.ApplyTo(personToPatch, ModelState);
+            patchDoc.ApplyTo(personToPatch, (Microsoft.AspNetCore.JsonPatch.Adapters.IObjectAdapter)ModelState);
 
 
             TryValidateModel(personToPatch);
