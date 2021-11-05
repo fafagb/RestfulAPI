@@ -2,7 +2,7 @@ API/bin
 API/logs
 API/obj
 API.Core/bin
-API.Repository/bin
 API.Core/obj
+API.Repository/bin
 API.Repository/obj
 
